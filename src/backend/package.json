@@ -1,0 +1,24 @@
+{
+  "name": "hd-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev",
+   "build": "wrangler build && npx cpy dist/index.js wrangler.jsonc schema.jsonc ../../dist/backend/ --flat"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "cpy-cli": "^6.0.0", 
+    "wrangler": "^4.42.2"
+  }
+}

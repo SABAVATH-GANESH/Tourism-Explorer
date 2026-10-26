@@ -1,0 +1,38 @@
+[
+  {
+    "component": "@hyperdart/tourismexplorer",
+    "query": "museums in Delhi",
+    "entities": [
+      {
+        "word": "Delhi",
+        "collectionName": "CITIES",
+        "collectionType": "HD_LOCATION",
+        "entityInfo": {
+          "geo": {
+            "tz": "Asia/Kolkata",
+            "lat": 28.65195,
+            "city": "Delhi",
+            "long": 77.23149,
+            "state": "Delhi",
+            "country": "India",
+            "countryCode": "IN"
+          }
+        },
+        "entityType": "LOCATION",
+        "description": "capital of India",
+        "relevanceScore": 100
+      }
+    ],
+    "keyword": [{ "word": "museums", "description": "" }],
+    "genericQuery": "museums in HD_LOCATION__CITIES",
+    "userLocation": {
+      "position": {
+        "coords": { "latitude": 26.4631, "longitude": 80.3479 },
+        "city": "Kanpur",
+        "countryCode": "IN"
+      },
+      "source": "ip"
+    },
+    "suggestedPlace": "sidebar"
+  }
+]

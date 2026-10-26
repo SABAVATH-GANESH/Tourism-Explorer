@@ -1,0 +1,36 @@
+{
+  // Worker name
+  "name": "hd-backend",
+
+  // Entry point
+  "main": "index.js",
+
+  // Cloudflare Workers compatibility date
+  "compatibility_date": "2025-09-12",
+
+  "dev": {
+    // Custom port for wrangler dev
+    "port": 3001
+  },
+    "compatibility_flags": [
+    "nodejs_compat",
+    "enable_nodejs_http_server_modules",
+    "enable_nodejs_http_modules",
+    "experimental"
+  ],
+
+  "vars": {
+    "DEV_DOMAIN": "",
+    "STAGING_DOMAIN":"",
+    "PROD_DOMAIN": "",      
+    "ENVIRONMENT": "development" 
+  }
+
+//   "d1_databases": [
+//     {
+//       "binding": "DB",               // This will be used in code as env.DB
+//       "database_name": "my-database", 
+//       "database_id": "test"
+//     }
+//   ]
+}
